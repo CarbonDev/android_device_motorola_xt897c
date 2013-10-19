@@ -76,7 +76,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cdma.subscription=1 \
     DEVICE_PROVISIONED=1 \
     persist.sys.report_gprs_as_edge=1 \
-    persist.timed.enable=true
+    persist.timed.enable=true \
+    ro.config.qc_lte_network_modes=true
 
 # IDC
 PRODUCT_COPY_FILES += \
