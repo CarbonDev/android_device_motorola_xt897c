@@ -1,6 +1,3 @@
-# CDMA
-$(call inherit-product, vendor/carbon/config/common_cdma.mk)
-
 # phone
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
